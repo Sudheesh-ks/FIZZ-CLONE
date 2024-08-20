@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+}
+
+/* This is the style for header section  */
+.navbar{
+   width: 100%;
+   background-color: #0a0a26; 
+   padding-left: 24px;
+   padding-right: 24px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    gap: 35px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.main-logo{
+   margin-left: 20px;
+}
+
+.nav-links{
+    font-family: "Nunito Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/*This is the style for navbar hover*/
+.hover:hover{
+    color: rgb(194, 42, 42) !important; 
+}
+
+.dropdown-hover:hover{
+    background-color: transparent !important;
+    color: black !important;
+    transition: .3s ease-in;
+
+}
+
+
+.intro-img{
+    width: 100%;
+}
+
+
+.main-content-section{
+    width: 100%;
+}
+
+.main-content-div{
+    width: 100%;
+    
+}
+
+.left-img{
+    background-color: black;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rolling-bgImg{
+    display: block;
+
+}
+
+#rolling-img{
+    width: 190px;
+}
+
+.left-img p {
+    font-size: 80px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+
+}
+
+.right-content{
+    width: 100%;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+
+
+}
+
+.content-div{
+    width: 100%;
+    
+}
+
+.content-div p{
+    font-size: 24px;
+    font-family: "Nunito Sans", sans-serif;
+    color: black;
+    margin-bottom: 32px;
+
+}
+
+.right-content {
+    padding: 120px !important;
+}
+
+/*This is the style for fizz bottom image*/
+.bottom-img-div{
+    width: 100%;
+
+}
+
+.bottom-img-div{
+    width: 100%;
+}
+
+/*This is the style for footer section*/
+.footer-div{
+    padding: 65px;
+}
+
+.footer-row div{
+    margin-bottom: 30px;
+}
+
+.footer-row div p{
+    font-size: 13px;
+    color: black;
+}
+
+.mail-div a{
+  font-size: 14px;
+  color: #0a0b27;
+  text-decoration: none;
+}
+
+.mail-div a:hover{
+    color: rgb(194, 42, 42);
+    text-decoration: underline;
+}
+
+.contact-div a{
+    font-size: 14px;
+    color: #0a0b27;
+    text-decoration: none;
+}
+
+.contact-div a:hover{
+    color: rgb(194, 42, 42);
+    text-decoration: underline;
+}
+
+.social-media-footer-icons img{
+    margin-left: 5px;
+}
+
+.social-media-footer-icons img:hover{
+    color: rgb(194, 42, 42);
+}
+
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+   
+    #rolling-img{
+        width: 100px;
+    }
+
+    .left-img p {
+        font-size:40px; 
+    }
+
+    .content-div p {
+        font-size: 24px; 
+        margin-bottom: 10px;
+    }
+
+    .right-content{
+        padding: 30px !important;
+    }
+}
